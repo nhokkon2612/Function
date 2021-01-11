@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tap tao ham</title>
+</head>
+<body>
+<script>
+    function processConfirm(answer) {
+        let result = "";
+        if (answer) {
+            result = "Excellent. We'll play a nice game of chess.";
+        } else {
+            result = "well maybe later";
+        }
+        return result;
+
+    }
+
+    let abc = confirm("Shall we play a game?");
+    let kq = processConfirm(abc);
+    alert(kq);
+</script>
+</body>
+</html>
