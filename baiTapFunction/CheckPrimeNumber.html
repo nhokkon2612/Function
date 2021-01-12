@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>té</title>
+</head>
+<body>
+<script>
+    let min = +prompt("Khoang tu:");
+    let max = +prompt("Den :");
+
+    function checkPrime(value) {
+        let flag = true;
+        for (let i = 2; i < value; i++) {
+            if (value % i === 0) {
+                flag = false;
+            }
+        }
+        return flag;
+    }
+
+    function sum(max, min) {
+        for (let j = min; j <= max; j++) {
+            if (checkPrime(j)) {
+                document.write( j+ " is a prime "  + "<br>");
+            }
+            else{
+                document.write(j+" is not a prime" +"<br>");
+            }
+        }
+    }
+
+
+
+    sum(max,min);
+</script>
+</body>
+</html>

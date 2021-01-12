@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quy doi nhiet do voi Ham</title>
+</head>
+<body>
+        <form >
+            <span>Fahrenheit</span>
+            <input type="number" placeholder="Nhap Do F" id="nhapvao"
+            oninput="doinhietdo(this.value)"
+            onchange="doinhietdo(this.value)">
+            <p> Celsius: <span id="hienthi"></span></p>
+
+        </form>
+
+            <script>
+                function doinhietdo(giatri){
+                    // parseFloat(giatri);
+                    document.getElementById("hienthi").innerHTML = (giatri-32)/1.8;
+                }
+
+            </script>
+</body>
+</html>

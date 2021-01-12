@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm Min của mảng</title>
+</head>
+<body>
+        <script>
+           /* let Ar2 =[7,15,6,9,50,56,89];
+
+            let min = minAr(Ar2);
+            alert(min);
+            /!* let Ar1 = [3, 5, 1, 8, -3, 7, 8];
+             let min = minAr1(Ar1);
+             alert(min);*!/
+            function minAr(arr)
+            {
+
+                let min = Ar2[0];
+                for (let i = 0; i < Ar2.length; i++) {
+                    if (Ar2[i] < min) {
+                        min = Ar2[i];
+                    }
+
+                }
+
+                return min;
+            }
+
+
+
+
+
+
+
+            //mang 2
+           /!* function minarr2(arr2){
+                let min2=arr2[0];
+                for (let j = 0; j < arr2.length; j++) {
+                    if(arr2[j]<min2) {
+                        min2 = arr2[j];
+                    }
+                }
+                return arr2
+
+            }
+
+
+
+
+            let aar2=[7,12,6,9,20,56,89];
+            let min2=minarr2(arr2);
+
+
+*!/
+        function FindMin(minofarr) {
+            if(Ar.length==0){
+                return -1 ;
+            }
+            let min1 = Ar[0];
+            for (let i = 0; i < Ar.length; i++) {
+                if(Ar[i]<min1){
+                    min1=Ar[i];
+                }
+
+            }
+            return min1;
+        }
+
+        let Ar=[];
+        let min1=FindMin(Ar);
+        alert(min1);
+
+
+
+*/
+
+
+
+
+
+           function minArray(arr) {
+               if(arr.length==0){
+                   return -1
+               }
+               let min = arr[0];
+               for(var i = 1; i < arr.length; i++){
+                   if(arr[i] < min){
+                       min = arr[i];
+                   }
+               }
+               return min;
+           }
+           let arr1 = [3, 5, 1, 8, -3, 7, 8];
+           let min = minArray(arr1);
+           alert(min);
+
+
+           let arr2 = [3, 5, 56, 8, -17, 7, 8];
+           let min1 = minArray(arr2);
+           alert(min1);
+
+           let arr3 = [];
+           let min2 = minArray(arr3);
+           alert(min2);
+        </script>
+</body>
+</html>
