@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen doi giua feet va meters</title>
+</head>
+<body>
+
+        <h4>Quy doi don vi</h4>
+        <button>Feet</button>
+        <input type="number" id="nhapvaof"  placeholder=" Feet"
+               oninput="metersconvert(this.value)"><br>
+        <button>Meter</button>
+        <input type="number" id="nhapvaom"  placeholder="Meter"
+               oninput="feetconvert(this.value)"><br>
+
+
+
+
+        <script>
+            function metersconvert(){
+                let foot =document.getElementById("nhapvaof").value;
+
+                meters=0.305*foot;
+                // return meters
+                document.getElementById("nhapvaom").value = meters ;
+            }
+            metersconvert();
+
+
+
+
+
+            function feetconvert(){
+                    let meters=document.getElementById("nhapvaom").value;
+                    foot=3.279*meters;
+
+                /*return foot;*/
+                document.getElementById("nhapvaof").value = foot;
+            }
+            feetconvert();
+
+
+
+
+
+
+
+           /* let m=+prompt("Nhap met can quy doi ra feet:");
+            let f =+prompt("Nhap feet can quy doi ra meet:");
+            let flag=true;
+            function convert(){
+                for (; meter < foot ; ) {
+
+                }
+                if(flag==true){
+                    meter=0.305*foot;
+                    document.write(m+" feet = "+ n"")
+                }else{
+                    foot =3.279*meter;
+                }
+            }
+*/
+        </script>
+</body>
+</html>

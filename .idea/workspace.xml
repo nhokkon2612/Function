@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bc19277-9fa2-4cf1-8354-abcfb271b603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baiTapFunction/CheckPrimeNumber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thucHanhFunction/MinOfArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thucHanhFunction/doiNhietDo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thucHanhFunction/tét.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/Convert_feet_meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiTapFunction/bai5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thucHanhFunction/testTaoFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/thucHanhFunction/testTaoFunction.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610336710442</updated>
       <workItem from="1610336711593" duration="12173000" />
-      <workItem from="1610378549863" duration="9927000" />
+      <workItem from="1610378549863" duration="20790000" />
+      <workItem from="1610435074653" duration="13289000" />
     </task>
     <servers />
   </component>
@@ -85,6 +89,16 @@
           <url>file://$PROJECT_DIR$/thucHanhFunction/testTaoFunction.html</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/baiTapFunction/Convert_feet_meters.html</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/baiTapFunction/Convert_feet_meters.html</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
